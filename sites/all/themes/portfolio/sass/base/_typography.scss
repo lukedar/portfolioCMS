@@ -1,0 +1,41 @@
+
+body {
+  background: $grey;
+  color: $darker-grey;
+  font-family: $futura;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+  line-height: 170%;
+  font-family: $lubalin;
+  color: $black;
+  font-weight: bold;
+}
+
+h1,
+h2.block__title {
+  font-size: 20px;
+  border-bottom: solid 1px $dark-grey;
+  margin: 0 0 20px;
+  padding-bottom: 7px;
+}
+
+p {
+  margin: 0 0 10px;
+  padding-bottom: 9px;
+}
+
+a,
+a:link,
+a:visited {
+  color: $black;
+  @include transition-property(all);
+  @include transition-duration(0.4s);
+  &:hover {
+    text-decoration: none;
+  }
+}

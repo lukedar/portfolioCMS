@@ -1,0 +1,81 @@
+
+// Main Menu.
+.l-region--navigation {
+  display: none;
+  @include breakpoint($at-small) {
+    float: right;
+    display: inline;
+  }
+  #block-system-main-menu {
+    ul.menu {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        display: block;
+        float: left;
+        @include breakpoint($at-small) {
+          border-right: 1px solid $dark-grey;
+        }
+        a {
+          font-family: $lubalin;
+          padding: 20px 15px;
+          display: block;
+          text-transform: uppercase;
+          color: $mid-grey-dark;
+          font-size: 14px;
+          text-decoration: none;
+          letter-spacing: 1px;
+          &:hover{
+            color: $black;
+          }
+          &.active {
+            color: $black;
+          }
+        }
+        &.last {
+          border-right: none;
+        }
+        &.last.active {
+          background: $grey;
+          a {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobile-menu-open {
+  @include breakpoint($upto-small) {
+    .l-region--navigation {
+      display: block;
+      clear: both;
+      margin-top: 20px;
+      padding-bottom: 10px;
+    }
+    .l-region--navigation {
+      #block-system-main-menu ul.menu li {
+        float: none;
+        a {
+          padding: 10px 0px ;
+        }
+      }
+    }
+  }
+}
+
+.burger-btn {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  display: block;
+  cursor: pointer;
+  width: 27px;
+  height: 27px;
+  background: url(../images/burger-btn.png) 0px 0px;
+  @include breakpoint($at-small) {
+    display: none;
+  }
+}

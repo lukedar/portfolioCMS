@@ -1,0 +1,36 @@
+
+// All Layout and main page element styles.
+// Header
+header {
+  background: $light-grey;
+  border-bottom: 1px solid $dark-grey;
+  overflow: auto;
+  min-height: 65px;
+
+}
+.l-branding {
+  @include breakpoint($at-small) {
+    float: left;
+  }
+  margin-top: 20px;
+}
+.site-name,
+.site-slogan {
+	display: none;
+}
+
+// Main
+.l-contact,
+.l-main,
+.l-header-inner {
+  margin: 0 auto;
+  max-width: 1024px;
+  @include breakpoint($upto-large) {
+    padding: 0 20px;
+  }
+}
+
+.l-main {
+  margin-top: 50px;
+}
+

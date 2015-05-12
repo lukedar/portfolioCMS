@@ -1,0 +1,36 @@
+
+// Portfolio Grid
+.view-id-portfolio {
+  .view-content {
+    @include breakpoint($at-small) {
+      margin: 0 0 0 (-($grid-padding));
+    }
+    .views-row {
+      width: 100%;
+      margin-bottom: 40px;
+      @include breakpoint($at-small) {
+        width: 50%;
+        float: left;
+        padding: 0 0 0 $grid-padding;
+      }
+      @include breakpoint($at-medium) {
+        width: 33.3333333%;
+      }
+      .field--name-field-project-image {
+        margin-bottom: 10px;
+      }
+      h2 {
+        margin: 0;
+        font-size: 15px;
+        font-family: $futura;
+      }
+    }
+  }
+}
+.view-id-portfolio.view-display-id-block_1 {
+  .views-row {
+    @include breakpoint($at-medium) {
+      width: 25%;
+    }
+  }
+}
