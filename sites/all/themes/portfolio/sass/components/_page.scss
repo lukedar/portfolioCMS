@@ -25,7 +25,8 @@ header {
 .l-header-inner {
   margin: 0 auto;
   max-width: 1024px;
-  @include breakpoint($upto-large) {
+  padding: 0 15px;
+  @include breakpoint($at-medium) {
     padding: 0 20px;
   }
 }

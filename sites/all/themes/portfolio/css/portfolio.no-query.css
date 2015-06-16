@@ -195,9 +195,10 @@ header {
 .l-main,
 .l-header-inner {
   margin: 0 auto;
-  max-width: 1024px; }
+  max-width: 1024px;
+  padding: 0 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_page\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_page\.scss}line{font-family:\0000334}}
 .l-main {
   margin-top: 50px; }
 
@@ -249,10 +250,10 @@ header {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\000038}}
 .view-id-portfolio .view-content .views-row {
   width: 100%;
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\0000319}}
   .view-id-portfolio .view-content .views-row .field--name-field-project-image {
-    margin-bottom: 10px; }
+    margin-bottom: 7px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\0000322}}
   .view-id-portfolio .view-content .views-row h2 {
     margin: 0;
