@@ -52,7 +52,7 @@ body {
   color: #525254;
   font-family: "Futura", sans-serif;
   font-size: 15px;
-  line-height: 22px; }
+  line-height: 25px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/base\/_typography\.scss}line{font-family:\0000311}}
 h1, h2, h3, h4, h5, h6 {
