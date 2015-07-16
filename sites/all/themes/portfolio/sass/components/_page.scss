@@ -6,7 +6,8 @@ header {
   border-bottom: 1px solid $dark-grey;
   overflow: auto;
   min-height: 65px;
-
+  position: relative;
+  z-index: 10;
 }
 .l-branding {
   @include breakpoint($at-small) {
@@ -33,8 +34,21 @@ header {
 
 .l-main {
   margin-top: 50px;
+  position: relative;
 }
 
 .group-header {
   padding: 0 0 0 17px;
 }
+
+// basic page.
+// .ds-2col-stacked {
+
+//   .group-left,
+//   .group-right {
+//     padding: 0 0 0 17px;
+//     @include breakpoint($upto-small) {
+//       width: 100% !important;
+//     }
+//   }
+// } 

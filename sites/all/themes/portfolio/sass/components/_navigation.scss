@@ -74,6 +74,7 @@
   cursor: pointer;
   width: 27px;
   height: 27px;
+  z-index: 200;
   background: url(../images/burger-btn.png) 0px 0px;
   @include breakpoint($at-small) {
     display: none;

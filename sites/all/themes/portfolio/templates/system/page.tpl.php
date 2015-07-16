@@ -92,10 +92,10 @@
       <?php print render($page['navigation']); ?>
     </div>
   </header>
-  <div class="l-contact">
-    <?php print render($page['contact']); ?>
-  </div>
   <div class="l-main">
+    <div class="l-contact">
+      <?php print render($page['contact']); ?>
+    </div>
     <div class="l-content" role="main">
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>

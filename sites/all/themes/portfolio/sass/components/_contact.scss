@@ -1,27 +1,23 @@
 // Contact
 .l-contact {
-  height: 1px;
+  height: 65px;
+  position: absolute;
+  right: 0;
+  top: -200px;
   overflow: hidden;
-  @include transition-duration(0.3s);
+  @include transition-duration(0.5s);
   @include transition-property(all);
   &.contact-open {
-    height: 97px;
+    top: -50px;
   }
   .contact-wrapper {
-    margin: 40px 0 0 0;
-    text-align: left;
-    div {
-      display: inline-block;
-        width: 50%;
-        text-align: center;
-    }
+    margin: 20px 0 0 0;
+    text-align: right;
     .tel,
     .email a {
-      font-family: $lubalin;
-      font-weight: bold;
       color: $black;
-      font-size: 22px;
-      line-height: 28px;
+      font-size: 15px;
+      line-height: 18px;
     }
     a {
       text-decoration: none;
