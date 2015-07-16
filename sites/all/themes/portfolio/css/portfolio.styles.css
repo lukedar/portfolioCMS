@@ -113,11 +113,12 @@ a:visited {
   .l-contact .contact-wrapper {
     margin: 40px 0 0 0;
     text-align: left; }
-    @media (min-width: 615px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_contact\.scss}line{font-family:\0000310}}
-      .l-contact .contact-wrapper {
-        text-align: right; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_contact\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_contact\.scss}line{font-family:\0000313}}
+    .l-contact .contact-wrapper div {
+      display: inline-block;
+      width: 50%;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_contact\.scss}line{font-family:\0000319}}
     .l-contact .contact-wrapper .tel,
     .l-contact .contact-wrapper .email a {
       font-family: "ITCLubalinGraph", Georgia, "Times New Roman", "DejaVu Serif", serif;
@@ -125,7 +126,7 @@ a:visited {
       color: #313131;
       font-size: 22px;
       line-height: 28px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_contact\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_contact\.scss}line{font-family:\0000326}}
     .l-contact .contact-wrapper a {
       text-decoration: none; }
 
@@ -243,13 +244,17 @@ header {
 .l-main {
   margin-top: 50px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_page\.scss}line{font-family:\0000338}}
+.group-header {
+  padding: 0 0 0 17px; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\000033}}
 .node-type-project .l-content > h1 {
   display: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\000037}}
 .node-type-project .l-main {
-  margin-top: 60px; }
+  margin-top: 50px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000311}}
 .node--project--full {
@@ -269,7 +274,7 @@ header {
       margin-bottom: 10px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000325}}
   .node--project--full .field--name-field-project-link {
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000327}}
     .node--project--full .field--name-field-project-link a {
       text-decoration: none; }
@@ -278,26 +283,28 @@ header {
         text-decoration: underline; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000337}}
-.field--name-field-my-role .field__label {
-  font-family: "ITCLubalinGraph", Georgia, "Times New Roman", "DejaVu Serif", serif;
-  font-size: 13px;
-  color: #313131; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000342}}
 .field--name-field-my-role .field__item {
   background: #d5d5d7;
   float: left;
-  padding: 3px 7px;
+  padding: 0px 5px;
   margin: 0 5px 5px 0;
-  font-size: 14px; }
+  font-size: 14px;
+  border: solid 1px transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000344}}
+  .field--name-field-my-role .field__item:hover {
+    border: solid 1px #c2c3c3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000347}}
+  .field--name-field-my-role .field__item a {
+    text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000357}}
 .field--name-field-project-image a,
 .node--full.node--project--full .group-left a {
   display: block;
   padding: 0;
   position: relative; }
 @media (min-width: 615px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000363}}
   .field--name-field-project-image a:before,
   .node--full.node--project--full .group-left a:before {
     position: absolute;
@@ -318,11 +325,39 @@ header {
     -moz-transition-property: all;
     -o-transition-property: all;
     transition-property: all; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\0000376}}
   .field--name-field-project-image a:hover:before,
   .node--full.node--project--full .group-left a:hover:before {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
     opacity: 0.4; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\00003106}}
+.page-taxonomy .feed-icon {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\00003109}}
+.page-taxonomy .node--project.node-teaser {
+  position: relative;
+  float: left;
+  margin-bottom: 20px; }
+  @media (min-width: 615px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\00003109}}
+    .page-taxonomy .node--project.node-teaser {
+      width: 50%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\00003116}}
+  .page-taxonomy .node--project.node-teaser .field--name-field-project-image {
+    margin-bottom: 7px; }
+  @media (min-width: 615px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\00003120}}
+    .page-taxonomy .node--project.node-teaser:nth-of-type(odd) .field--name-field-project-image {
+      padding-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\00003123}}
+    .page-taxonomy .node--project.node-teaser:nth-of-type(even) .field--name-field-project-image {
+      padding-right: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_project\.scss}line{font-family:\00003127}}
+  .page-taxonomy .node--project.node-teaser h2 {
+    margin: 0;
+    font-size: 15px;
+    font-family: "Futura", sans-serif; }
 
 @media (min-width: 615px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\000034}}
@@ -335,23 +370,20 @@ header {
   @media (min-width: 615px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\000038}}
     .view-id-portfolio .view-content .views-row {
-      width: 50%;
+      width: 33.33333333333%;
+      width: 25%;
       float: left;
       padding: 0 0 0 17px; } }
-  @media (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\000038}}
-    .view-id-portfolio .view-content .views-row {
-      width: 25%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\0000317}}
   .view-id-portfolio .view-content .views-row .field--name-field-project-image {
     margin-bottom: 7px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\0000320}}
   .view-id-portfolio .view-content .views-row h2 {
     margin: 0;
     font-size: 15px;
     font-family: "Futura", sans-serif; }
 
 @media (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/portfolio\/sites\/all\/themes\/portfolio\/sass\/components\/_views\.scss}line{font-family:\0000329}}
   .view-id-portfolio.view-display-id-block_1 .views-row {
     width: 25%; } }

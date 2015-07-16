@@ -9,12 +9,10 @@
       width: 100%;
       margin-bottom: 20px;
       @include breakpoint($at-small) {
-        width: 50%;
+        width: 33.33333333333%;
+        width: 25%;
         float: left;
         padding: 0 0 0 $grid-padding;
-      }
-      @include breakpoint($at-medium) {
-        width: 25%;
       }
       .field--name-field-project-image {
         margin-bottom: 7px;

@@ -5,7 +5,7 @@
 }
 
 .node-type-project .l-main{
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .node--project--full {
@@ -23,7 +23,7 @@
     }
   }
   .field--name-field-project-link {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     a {
       text-decoration: none;
       &:hover {
@@ -34,17 +34,19 @@
 }
 
 .field--name-field-my-role {
-  .field__label {
-    font-family: $lubalin;
-    font-size: 13px;
-    color: $black;
-  }
   .field__item {
     background: $mid-grey;
     float: left;
-    padding: 3px 7px;
+    padding: 0px 5px;
     margin: 0 5px 5px 0;
     font-size: 14px;
+    border: solid 1px transparent;
+    &:hover {
+      border: solid 1px #c2c3c3;
+    }
+    a {
+      text-decoration: none;
+    }
     //letter-spacing: 1px;
   }
 }
@@ -100,4 +102,32 @@
 }
 
 
-
+.page-taxonomy {
+  .feed-icon {
+    display: none;
+  }
+  .node--project.node-teaser {
+    position: relative;
+    @include breakpoint($at-small) {
+      width: 50%;
+    }
+    float: left;
+    margin-bottom: 20px;
+    .field--name-field-project-image {
+      margin-bottom: 7px;
+    }
+    @include breakpoint($at-small) {
+      &:nth-of-type(odd) .field--name-field-project-image {
+        padding-left: 10px;
+      }
+      &:nth-of-type(even) .field--name-field-project-image {
+        padding-right: 10px;
+      }
+    }
+    h2 {
+      margin: 0;
+      font-size: 15px;
+      font-family: "Futura", sans-serif;
+    }
+  }
+}
