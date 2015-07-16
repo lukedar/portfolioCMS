@@ -3,9 +3,9 @@
   height: 65px;
   position: absolute;
   right: 0;
-  top: -200px;
+  top: -115px;
   overflow: hidden;
-  @include transition-duration(0.5s);
+  @include transition-duration(0.4s);
   @include transition-property(all);
   &.contact-open {
     top: -50px;

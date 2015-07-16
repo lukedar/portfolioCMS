@@ -5,15 +5,18 @@ header {
   background: $light-grey;
   border-bottom: 1px solid $dark-grey;
   overflow: auto;
-  min-height: 65px;
+  @include breakpoint($upto-small) {
+    min-height: 63px;
+  }
   position: relative;
   z-index: 10;
 }
 .l-branding {
+  width: 45px;
+  margin-top: 20px;
   @include breakpoint($at-small) {
     float: left;
   }
-  margin-top: 20px;
 }
 .site-name,
 .site-slogan {
